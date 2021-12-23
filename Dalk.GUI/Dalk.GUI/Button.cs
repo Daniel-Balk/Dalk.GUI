@@ -33,6 +33,7 @@ namespace Dalk.GUI
         public Button()
         {
             DoubleBuffered = true;
+            Height = 32;
         }
         protected override void OnPaint(PaintEventArgs e)
         {

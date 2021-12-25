@@ -24,5 +24,10 @@ namespace WpfTest
         {
             InitializeComponent();
         }
+
+        private void Button_ButtonClick(object sender, EventArgs e)
+        {
+            System.Windows.Forms.MessageBox.Show("Test");
+        }
     }
 }

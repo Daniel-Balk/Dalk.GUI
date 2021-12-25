@@ -9,6 +9,6 @@
         Title="MainWindow" Height="450" Width="800">
     <Grid>
         <Button Content="Button" HorizontalAlignment="Left" Margin="291,166,0,0" VerticalAlignment="Top"/>
-        <Wpf:Button HorizontalAlignment="Left" Height="40" Margin="80,101,0,0" VerticalAlignment="Top" Width="127" ButtonText="Button1" />
+        <Wpf:Button ButtonClick="Button_ButtonClick" HorizontalAlignment="Left" Height="40" Margin="80,101,0,0" VerticalAlignment="Top" Width="127" ButtonText="Button1" />
     </Grid>
 </Window>

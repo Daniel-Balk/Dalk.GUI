@@ -23,6 +23,10 @@ namespace Dalk.GUI.Wpf
             BackgroundColor = Color.FromRgb(19, 154, 67);
             HoverBackgroundColor = Color.FromRgb(13, 171, 118);
             TextColor = Color.FromRgb(255, 255, 255);
+            UIControl.Click += new EventHandler((s, e) =>
+            {
+                ButtonClick?.Invoke(s, e);
+            });
         }
         private GUI.Button UIControl { get; set; } = new GUI.Button();
         protected override void OnInitialized(EventArgs e)
@@ -197,5 +201,7 @@ namespace Dalk.GUI.Wpf
                 UIControl.ImageMargin = value;
             }
         }
+
+        public event EventHandler ButtonClick;
     }
 }

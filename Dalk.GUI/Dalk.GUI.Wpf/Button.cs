@@ -15,8 +15,16 @@ namespace Dalk.GUI.Wpf
         static Button()
         {
             DefaultStyleKeyProperty.OverrideMetadata(typeof(Button), new FrameworkPropertyMetadata(typeof(Button)));
+            
         }
-        private Dalk.GUI.Button UIControl { get; set; }
+        public Button()
+        {
+            ButtonText = "New Button";
+            BackgroundColor = Color.FromRgb(19, 154, 67);
+            HoverBackgroundColor = Color.FromRgb(13, 171, 118);
+            TextColor = Color.FromRgb(255, 255, 255);
+        }
+        private GUI.Button UIControl { get; set; } = new GUI.Button();
         protected override void OnInitialized(EventArgs e)
         {
             Child = UIControl;
@@ -43,7 +51,7 @@ namespace Dalk.GUI.Wpf
                     value.B
                     );
             }
-        }
+        } 
         [Category("Dalk.GUI.Wpf")]
         public Color HoverBackgroundColor
         {

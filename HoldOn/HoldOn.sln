@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31912.275
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HoldOn", "HoldOn\HoldOn.csproj", "{BDE0C65A-3E97-4E59-8226-008E2BD3F1A8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BDE0C65A-3E97-4E59-8226-008E2BD3F1A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDE0C65A-3E97-4E59-8226-008E2BD3F1A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDE0C65A-3E97-4E59-8226-008E2BD3F1A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDE0C65A-3E97-4E59-8226-008E2BD3F1A8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9CA85F5F-1F67-4F0B-8C5B-5C7274373A59}
+	EndGlobalSection
+EndGlobal
